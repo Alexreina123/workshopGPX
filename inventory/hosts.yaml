@@ -1,0 +1,22 @@
+router1:
+  hostname: "104.248.19.53"
+  platform: "eos"
+  groups:
+    - "the-lab"
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          port: 12007
+          transport: "ssh"
+router2:
+  hostname: "104.248.19.53"
+  platform: "eos"
+  groups:
+    - "the-lab"
+  connection_options:
+    napalm:
+      extras:
+        optional_args:
+          port: 12008
+          transport: "ssh"
